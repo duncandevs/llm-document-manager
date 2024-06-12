@@ -77,11 +77,9 @@ local app url
     localhost:3000
     ```
 
+
 ## View the DB on:
 local database url
     ```bash
     http://127.0.0.1:8090/_/
     ```
-
-## Usage
-See the example PDF in the examples folder to test the app
