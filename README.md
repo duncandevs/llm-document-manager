@@ -71,15 +71,12 @@ This application enables users to upload company documents and generate relevant
     yarn dev
     ```
 
-## View the app on:
-local app url
+## Usage:
+1. View local app url
     ```bash
     localhost:3000
     ```
-
-
-## View the DB on:
-local database url
+2. View local database url
     ```bash
     http://127.0.0.1:8090/_/
     ```
