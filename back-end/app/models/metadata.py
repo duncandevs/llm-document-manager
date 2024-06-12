@@ -1,5 +1,5 @@
 import os
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 from typing import List, Optional, Any
 from app.models.document import DocumentLabelEnum, DocumentTypeEnum, DocumentSourceEnum
 from app.clients.pocketbase import pb

@@ -1,4 +1,3 @@
-import os
 from enum import Enum
 from typing import Optional, Any
 from app.clients.pocketbase import pb

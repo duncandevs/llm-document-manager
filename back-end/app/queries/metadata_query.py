@@ -1,7 +1,5 @@
-from pydantic import BaseModel
-from typing import Any, Optional, Type
+from typing import Any, Type
 from app.models.metadata_llm import MetadataLLM
-from app.clients.instructor import instructorClient
 from app.queries.base import BaseQuery
 
 

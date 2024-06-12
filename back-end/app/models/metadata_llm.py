@@ -1,7 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import List, Optional
-from datetime import date, datetime
-from app.models.document import DocumentLabelEnum, DocumentTypeEnum, DocumentSourceEnum
+from app.models.document import DocumentLabelEnum, DocumentSourceEnum
 
 
 class MetadataLLM(BaseModel):

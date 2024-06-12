@@ -1,5 +1,4 @@
 import os
-import json
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from llama_index.core import SimpleDirectoryReader
