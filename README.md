@@ -87,7 +87,8 @@ This application enables users to upload company documents and generate relevant
     email: tester@example.com
     password: password1234
 
-# Resources: useful materials to continue building on this demo
+# Resources: 
+- useful materials to continue building on this demo
 1. Jason Liu guide to prompt Engineering:
 - https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/
 
