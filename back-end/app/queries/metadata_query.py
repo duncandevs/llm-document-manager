@@ -12,6 +12,7 @@ class MetadataQuery(BaseQuery):
         "Limit the number of tags to 10."
         "Use the following definition of terms to provide the most accurate responses."
         """<actors>Actors are any parties involved in the text this may include the text author and any other stakeholders involved</actors>
+            <summary>A detailed summary of the document</summary>
             <label>
                 The label specifies the domain of the document given the following label types:
                 1. career-framework: A set of guidelines outlining roles, competencies, and career paths within an organization.

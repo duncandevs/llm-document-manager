@@ -86,3 +86,18 @@ This application enables users to upload company documents and generate relevant
     enter the following DB credentials
     email: tester@example.com
     password: password1234
+
+# Resources: useful materials to continue building on this demo
+1. Jason Liu guide to prompt Engineering:
+- https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/
+
+2. Instructor For Structured LLMs:
+- https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/
+
+3. LLama Index Document Summary Index:
+- https://docs.llamaindex.ai/en/stable/examples/index_structs/doc_summary/DocSummary/
+
+4. LLama Index Pydantic Metadata Extractor
+- https://docs.llamaindex.ai/en/stable/examples/metadata_extraction/PydanticExtractor/
+
+

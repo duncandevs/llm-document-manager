@@ -3,8 +3,9 @@ from typing import Type, Any
 from app.clients.instructor import instructorClient
 
 class BaseQuery(BaseModel):
-    model: str = "gpt-4"
+    model: str = "gpt-3.5-turbo-0125"
     response_model: Type[Any]
+    max_retries: int = 3
 
     class Config:
         arbitrary_types_allowed = True
@@ -20,6 +21,7 @@ class BaseQuery(BaseModel):
                 "role": "user",
                 "content": message_content
             }],
-            response_model=self.response_model
+            response_model=self.response_model,
+            max_retries=self.max_retries
         )
         return result
