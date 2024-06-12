@@ -77,7 +77,12 @@ This application enables users to upload company documents and generate relevant
     ```bash
     localhost:3000
     ```
+
 2. View local database url
     ```bash
     http://127.0.0.1:8090/_/
     ```
+
+    enter the following DB credentials
+    email: tester@example.com
+    password: password1234
