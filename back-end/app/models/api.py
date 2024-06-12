@@ -1,4 +1,3 @@
-# Define the accepted MIME types
 ACCEPTED_MIME_TYPES = {
     "application/pdf", # .pdf
     "application/msword",  # .doc

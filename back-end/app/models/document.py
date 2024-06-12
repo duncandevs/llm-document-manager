@@ -4,7 +4,7 @@ from typing import Optional, Any
 from app.clients.pocketbase import pb
 from pydantic import BaseModel
 
-# Define the different document labels by domain, extend this as more use cases become known
+
 class DocumentLabelEnum(Enum):
     career_framework = 'career-framework'
     company_performance_review_process = 'company-performance-review-process'

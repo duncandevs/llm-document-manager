@@ -3,9 +3,7 @@ from typing import List, Optional
 from datetime import date, datetime
 from app.models.document import DocumentLabelEnum, DocumentTypeEnum, DocumentSourceEnum
 
-# NOTES
-# consider adding user_id, org_id
-# consider adding author as a nullable field
+
 class MetadataLLM(BaseModel):
     """Metadata LLM pydantic model. Generates prompts and calls llm for metadata results"""
     actors: Optional[List[str]] = Field(

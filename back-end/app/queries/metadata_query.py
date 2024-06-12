@@ -4,18 +4,6 @@ from app.models.metadata_llm import MetadataLLM
 from app.clients.instructor import instructorClient
 from app.queries.base import BaseQuery
 
-# Note use Jason Liu doc linkedin article to finetune the prompt
-# Challenges
-    # distinguishing between two closely related document types
-    # distinguishing between main actors in the doc vs other stakeholders
-    # not clear whether tags should be preselected from an enum or we let LLM decide
-    # still halucinates quite a bit -> picking the domain 
-    # not clear how relevant the tags are
-    # another consideration is error logs, how do I know when an error is present the specific reason for the error
-    # tweaking the summary prompt
-
-
-# Talking point - if we'd like to perform another query we can generate another Queryclass
 
 class MetadataQuery(BaseQuery):
     text: str

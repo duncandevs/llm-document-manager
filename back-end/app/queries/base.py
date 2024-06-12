@@ -4,7 +4,7 @@ from app.clients.instructor import instructorClient
 
 class BaseQuery(BaseModel):
     model: str = "gpt-4"
-    response_model: Type[Any]  # Type hint for the response model
+    response_model: Type[Any]
 
     class Config:
         arbitrary_types_allowed = True
