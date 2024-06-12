@@ -58,7 +58,7 @@ This application enables users to upload company documents and generate relevant
     ```bash
     ./pocketbase serve
     ```
-    you may encounter a permission error at this step. If this happens open the root folder and double click the pocketbase exec file to grant permission, then re-do this step.
+    *you may encounter a permission error at this step. If this happens open the root folder and double click the pocketbase exec file to grant permission, then retry this step.*
 
 2. From back-end dir, run the following command:
 
