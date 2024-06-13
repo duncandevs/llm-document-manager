@@ -33,7 +33,7 @@ async def upload_document(file: UploadFile = File(...)):
 
     # Create a temporary directory
     temp_dir = f"/tmp/uploaded_docs"
-    os.makedirs(temp_dir, exist_ok=True)
+    os.makedirs(temp_dir, exist_ok=True) #exist_ok throws an error if the directory already exists
     
     # Save the uploaded doc to a temporary location
     temp_file_location = os.path.join(temp_dir, file.filename)
