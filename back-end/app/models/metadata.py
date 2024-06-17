@@ -29,6 +29,11 @@ class Metadata(BaseModel):
         return record
 
     @classmethod
+    def get_all(cls):
+        records = pb.collection('metadata').get_list(1,50)
+        return records
+
+    @classmethod
     def get_file_extension(cls, filename:str) -> str:
         _, file_extension = os.path.splitext(filename)
         return file_extension.lstrip('.')

@@ -26,7 +26,7 @@ export const DocumentDropZone = () => {
     const {acceptedFiles, getRootProps, getInputProps, fileRejections} = useDropzone({
         accept: ACCEPTED_FILE_TYPES
     });  
-
+    
     const files = acceptedFiles.map(file => (
       <li key={file.path}>
         <p className='text-sm text-gray-500'>{file.path} - {file.size} bytes</p>

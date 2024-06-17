@@ -1,4 +1,5 @@
-import { DocumentDropZone } from "@/components/DocumentDropZone"
+import { DocumentDropZone } from "@/components/DocumentDropZone";
+import { DocumentList } from "@/components/DocumentList";
 import { UploadIcon} from 'lucide-react'
 
 export default function Page () {
@@ -8,5 +9,8 @@ export default function Page () {
             <p>Document Upload</p>
         </head>
         <DocumentDropZone />
+        {/* <div className="m-auto text-center">
+            <DocumentList />
+        </div> */}
     </div>
 }

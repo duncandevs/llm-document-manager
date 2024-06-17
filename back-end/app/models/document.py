@@ -37,6 +37,15 @@ class Document(BaseModel):
     text: str
     file_name: str
 
+    @classmethod
+    def get_all(cls):
+        records = pb.collection('documents').get_list(1,50)
+        return records
+
+    @classmethod
+    def get_by_id(cls, document_id:str):
+        return pb.collection('documents').get_one(document_id)
+
     def save_record(self) -> Any:
         record = pb.collection('documents').create({
             'text': self.text,
@@ -44,3 +53,4 @@ class Document(BaseModel):
         })
         self.id = record.id
         return record
+    

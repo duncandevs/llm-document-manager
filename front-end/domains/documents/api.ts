@@ -28,3 +28,9 @@ export const uploadDocumentQuery = async ({ formData }: UploadDocumentQueryProps
     };
     return axios(request);
 };
+
+
+export const getDocuments = async () => {
+    const url = BASE_URL + '/api/v1/documents';
+    return axios.get(url)
+};
